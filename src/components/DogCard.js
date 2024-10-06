@@ -3,6 +3,7 @@ import { ListaArrumada, DivdaDiv } from '../Styles/StyledComponents';
 
 function DogCard({ dog , onClick }) {
     return(
+        // card listado de cada cão quando a pagina é iniciada
         <ListaArrumada onClick={onClick} style={{ cursor: 'pointer'}}>
             {dog.image && <img src={dog.image.url} alt={dog.name} style={{width: '200px'}} />}
             <DivdaDiv>

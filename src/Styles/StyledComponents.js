@@ -6,13 +6,32 @@ export const Tituloh1 = styled.h1`
   align-items: center;
   justify-content: center;
   font-size: 3vw;
+  color: white;
+
+  &:hover{
+      color: red;
+      transition: 1s;
+    }
 `;
 
 export const Header = styled.div`
   display: flex;
   justify-content: center;
-  background-color: #dbdbdb;
-   max-width: 100%;
+  background-color: #292929;
+  max-width: 100%;
+
+  img{
+    border-radius: 50%;
+    background-color: white;
+
+    &:hover{
+      transform: scale(0.85);
+      box-shadow: 20px 15px 25px #ad0000;
+      transition: 0.6s;
+    }
+  }
+
+
 `;
 
 export const Link = styled.a`
@@ -115,7 +134,6 @@ export const ModalContent = styled.div`
   }
 `;
 
-
 export const ModalHeader = styled.div`
   display: flex;
   justify-content: space-between;
@@ -132,4 +150,30 @@ export const ModalCloseButton = styled.button`
   font-size: 25px;
   cursor: pointer;
   color: red;
+`
+
+export const DogNaoAchado = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // background-color: yellow;
+  margin: 1.3vw 0;
+  
+  p{
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin-right: 1vw;
+  }
+
+  img {
+    width: 6vw;
+  }
+`
+
+export const Msgloading = styled.p`
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 2.5vw;
 `

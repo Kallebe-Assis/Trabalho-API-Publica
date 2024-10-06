@@ -3,7 +3,7 @@ import React from "react";
 import { ModalWrapper, ModalContent, ModalHeader, ModalCloseButton } from '../Styles/StyledComponents';
 
 function Modal({dog, onClose}) {
-    console.log(dog); // Verifique os dados do cachorro
+    // Pop-up das informações completas do cachorro selecionado
     return (
         <ModalWrapper>
             <ModalContent>
