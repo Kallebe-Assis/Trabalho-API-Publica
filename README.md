@@ -14,4 +14,14 @@ Axios: Para fazer requisições HTTP.
 Styled-components: Para estilização dos componentes.
 API pública: The Dog API é usada para obter as informações dos cães.
 
+**Como Usar:**
+Ao abrir a aplicação, você verá uma lista de raças de cães.
+Use a barra de pesquisa para filtrar por raça.
+Clique em um cachorro para ver mais detalhes em um modal.
+
+**Estrutura do Projeto:**
+src/components: Contém componentes como DogCard e Modal que permite a reutilização de códigos.
+src/Styles: Arquivos de estilo usando styled-components.
+src/pages: Página principal com a lógica de exibição e busca.
+
 Trabalho ADS 02/2024 - Front End API Pública
