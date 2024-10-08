@@ -1,3 +1,5 @@
+GRUPO: KALLEBE ASSIS, SAMUEL CARDOSO, FELIPE CUNHA
+
 # Trabalho-API-Publica
 
 Este é um projeto React que exibe informações detalhadas sobre diferentes raças de cães, utilizando dados de uma API pública. O projeto permite realizar buscas por raças específicas e conta com estilizações personalizadas para oferecer uma experiência de usuário mais agradável.
